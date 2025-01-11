@@ -180,40 +180,93 @@ header {
   background-color: rgb(5, 46, 39);
 }
 @media screen and (min-width: 680px) {
+  body{
+    background-color: silver;
+  }
   .hamburger {
     display: none;
+  }
+  header {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: transparent;
+  }
+  #profile h1 {
+    margin-left: 30px;
+    color: whitesmoke;
   }
   .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
   }
   .nav a {
-    display: block;
-    margin: 0 10px;
-  }
-  .nav.active a {
-    display: block;
-  }
-  #profile {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  .nav a:hover{
+    background-color: rgb(17, 207, 176);
+    color: rgb(12, 65, 145);
+  }
+
+  .top {
+    display: flex;
     flex-direction: row;
-    padding-bottom: 10px;
-    background-color: rgb(5, 46, 39);
-    padding-top: 10px;
+    grid-template-rows: 3fr 1fr;
+    justify-content: space-around;
+    width: 100%;
   }
-  #profile img {
-    width: 100px;
-    height: 110px;
-    border-radius: 5%;  
+  .top h2{
+    margin-top: auto;
+    
   }
-  #profile h1 {
-    /* font-size: 1.5em;
-    color: #333; */
-    margin-left: 50px;
-  } 
-  
+
+  .work {
+    margin-left: 20px;
+    margin-right: 0px ;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  section {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 0%;
+    margin-left: 20px;
+    margin-right: 20px ;
+    margin-bottom: 10px;
+    
+  }
+  section h2 {
+    background-color:  rgb(5, 46, 39) ;
+    text-align: center;
+    color: whitesmoke;
+    margin-left: -10px;
+    margin-right: -10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 8px;
+    
+  }
+
+  br {
+    display: none;
+  }
+
+  #courseList{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    padding-right: -80px;
+
+  }
 } 

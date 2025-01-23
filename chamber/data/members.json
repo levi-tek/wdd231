@@ -1,0 +1,82 @@
+{
+    "companies": [
+        {
+            "name": "Veritas Textiles Ltd",
+            "address": "Plot 34, Industrial Layout, Owerri, Imo, Nigeria",
+            "phoneNumbers": "(+234) 814-343-4353",
+            "logo": "images/veritas.png",
+            "websitesUrls": "https://www.veritastex.com",
+            "tagLine": "Innovating Textiles, Inspiring Lives",
+            "membershipLevels": [
+                {"silver": "🥈"}
+            ]
+        },
+        {
+            "name": "Luna Juice Confectionary",
+            "address": "12b Emenalom Crescent, by Bambis, MCC Road, Uratta Road, Owerri, Imo State, Nigeria",
+            "phoneNumbers": "(+234) 913-253-5023",
+            "logo": "images/luna.png",
+            "websitesUrls": "https://www.lunajuiceconfectionary.com",
+            "tagLine": "Prepared with Love and Goodness",
+            "membershipLevels": [
+                {"gold":
+                "🥇"}
+            ]
+        },
+        {
+            "name": "Franz Zenith Pharmaceuticals Ltd",
+            "address": "5 Okigwe Road, Owerri, Imo, Nigeria",
+            "phoneNumbers": "(+234) 803-754-7434",
+            "logo" :"images/franz.png",
+            "websitesUrls": "https://www.franzzenith.com",
+            "tagLine": "Innovating Health, Improving Lives",
+            "membershipLevels": [
+                {"members": "⭐"}
+            ]
+        },
+        {
+            "name": "ThynkTech Ltd",
+            "address": "14 154 Owerri Street, Owerri, Imo State, Nigeria",
+            "phoneNumbers": "(+234) 804-906-5674",
+            "logo":"images/thynktech.png",
+            "websitesUrls": "https://www.thynktech.com",
+            "tagLine": "Reliability and Trust",
+            "membershipLevels": [
+                {"members": "⭐"}
+            ]
+        },
+        {                                        
+            "name": "Bontu Farms",
+            "address": "No 1 Futo Road, Eziobodo, Owerri, Imo State, Nigeria",
+            "phoneNumbers": "(+234) 901-755-8256",
+            "logo":"images/bontu.png",
+            "websitesUrls": "https://www.bontufarms.com.ng",
+            "tagLine": "Harvesting Nature's Best",
+            "membershipLevels": [
+                {"gold": "🥇"}
+            ]
+        },
+        {
+            "name": "Nolz Ventures",
+            "address": "Eve and Kez Plaza, MCC Road, Ikenegbu, Owerri, Imo, Nigeria",
+            "phoneNumbers": "(+234) 803-456-7444",
+            "logo":"images/nolz.png",
+            "websitesUrls": "https://www.nolzventures.com",
+            "tagLine": "Innovating Tomorrow Today",
+            "membershipLevels": [
+                {"silver": "🥈"}
+            ]
+        },
+        {
+            "name": "Hydro Resources Ltd",
+            "address": "No 1 Ikenegbu Layout, Owerri, Imo State, Nigeria",
+            "phoneNumbers": "(+234) 913-756-7399",
+            "logo":"images/hydro.png",
+            "websitesUrls": "https://www.hydroresources.com",
+            "tagLine": "Innovating for a Sustainable Future",
+            "membershipLevels": [
+                {"members": "⭐"}
+            ]
+        }
+    ]
+}

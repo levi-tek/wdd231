@@ -1,0 +1,28 @@
+{
+    "familyName": "Oguike",
+    "movedInDate": "2020-01-01",
+    "numberOfPeople": 4,
+    "bishopricVisit": true,
+    "familyMembers": [
+        {
+            "name": "Christian Oguike",
+            "gender": "Male",
+            "birthdate": "1990-01-01"
+        },
+        {
+            "name": "Jane Oguike",
+            "gender": "Female",
+            "birthdate": "1992-01-01"
+        },
+        {
+            "name": "John Oguike",
+            "gender":"Male",
+            "birthdate": "2015-01-01"
+        },
+        {
+            "name": "Jude Oguike",
+            "gender":"Male",
+            "birthdate": "2017-01-01"
+        }
+    ]
+}

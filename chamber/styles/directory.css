@@ -97,11 +97,9 @@ a {
     padding: 8px 12px;
     border-radius: 20px;
 }
-
-.nav-container .nav-links a.active {
-    text-decoration: 2px white underline;
+h1{
+    text-align: center;
 }
-
 .nav-container .nav-links ul li {
     padding: 5px 0px;
     margin: 13px 0;

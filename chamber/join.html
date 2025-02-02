@@ -15,7 +15,7 @@
     <meta property="og:image" content="https://levi-tek.github.io/wdd231/chamber/index.html">
     <meta property="og:url" content="https://levi-tek.github.io/wdd231/chamber/directory.html">
     <meta name="twitter:card" content="Imo Chamber of Commerce, connects and grows businesses.">
-    <title>Home | Imo Chambers of Commerce </title>
+    <title>Join | Imo Chambers of Commerce </title>
 
     <link rel="icon" href="images/Fav.png" type="image/png">
 
@@ -24,10 +24,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/normalize.css" media="screen">
-    <link rel="stylesheet" href="styles/index.css" media="screen">
+    <link rel="stylesheet" href="styles/join.css" media="screen">
     <link rel="stylesheet" href="styles/directory.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <script src="scripts/index.js" defer></script>
+    <script src="scripts/join.js" defer></script>
     <script src="scripts/directory.js" defer></script>
 </head>
 
@@ -75,44 +75,77 @@
 
     </header>
     <main>
-        <section class="hero">
-            <div class="hero-container">
-                <h1>Imo Chambers of Commerce</h1>
-                <img src="images/hero.jpg" alt="Hero image" width="100vw">
-                <p>Building a community where businesses can thrive, foster a community of growth, and contribute to economic development.</p>
-                <a href="join.html" class="btn">Register With Us</a>
-            </div>
-        </section>
-        <div class="home-container">
-            <section class="events">
-                <h3>Events</h3>
-                <p><strong>Imo Networking Conference</strong> <br> <strong>Date:</strong> 28 <sup>th</sup> July 2025 <br><strong>Time:</strong> 4pm <br> <strong>Venue</strong> Kingoliza Halls, Imo State </p>
-            </section>
-    
-            <section class="cWeather">
-                <h3>Current Weather</h3>
-    
-                <div class="weatherInfo-container">
-                    <img id="sky" src="#" alt="weather icon" width="100" height="100">
-    
-                    <ul class="weather-info">
-    
-                    </ul>
-    
-                </div>
-            </section>
-    
-            <section class="wForecast">
-                <h3>Weather Forecast</h3>
-    
-                    <ul class="forecastInfo">
-    
-                    </ul>
-    
-                    <p class="see"></p>
-            </section>
+        <div class="intro-Heading">
+            <h1>Become a Member</h1>
+            <p>Join Imo Chamber of Commerce to gain access to exclusive events, benefits, and networking opportunities.</p>
         </div>
-        <div id="companies-container"></div>
+
+        <div id="member-container">
+
+            <form method="get" action="thankyou.html" class="org-details" id="formI">
+                
+                <div id="formInfo">
+                    <label> First Name: <input type="text" title="firstName" name="First" autocomplete="given-name" required></label>
+                    <label> Last Name: <input type="text" title="lastName" name="Last" required autocomplete="family-name" ></label>
+                    <label> Organizational Title: <input type="text" title="orgTitle" name="orgTitle" required autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}"></label>
+                    <label> Email Address: <input type="email" title="email address" name="email" required autocomplete="email" placeholder="company@domain.com"></label>
+                    <label> Phone Number: <input type="tel" title="phoneNumber" name="number" required autocomplete="tel" ></label>
+                    <label> Organization Name: <input type="text" title="orgName" name="OrgName" required autocomplete="organization"></label>
+
+                </div>
+                
+                <fieldset id="fieldsetArea">
+                    <legend>Select Membership Level</legend>
+                    <label><input type="radio" name="membershipLevel" value="NP Membership" required> NP Membership</label>
+                    <label><input type="radio" name="membershipLevel" value="Bronze Membership" required> Bronze Membership</label>
+                    <label><input type="radio" name="membershipLevel" value="Silver Membership" required> Silver Membership</label>
+                    <label><input type="radio" name="membershipLevel" value="Gold Membership" required> Gold Membership</label>
+                    
+                </fieldset>
+                
+                <label id="orgDetails"> Organization Description: 
+                    <textarea name="orgDescription" id="orgDescription" title="describe your organization"></textarea>
+                </label>
+                
+                <button id="submit-Btn" type="submit">Submit Application</button>
+                
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+
+
+            </form>
+
+            
+
+            
+            <div class="benefits">
+                <h2>Membership Levels</h2>
+                <p>Learn more about each membership levels and their benefits</p>
+
+            
+                <div id="NP-M">
+                    <h3>NP</h3>
+                    <p>Learn More!</p>
+                </div>
+
+                <div id="Bronze-M">
+                    <h3>Bronze</h3>
+                    <p>Learn More!</p>
+                </div>
+
+                <div id="Silver-M">
+                    <h3>Silver</h3>
+                    <p>Learn More!</p>
+                </div>
+
+                <div id="Gold-M">
+                    <h3>Gold</h3>
+                    <p>Learn More!</p>
+                </div>
+            </div>
+
+            <dialog id="dsDialogue" class="dDesign"></dialog>
+
+        </div>
 
     </main>
     <footer>

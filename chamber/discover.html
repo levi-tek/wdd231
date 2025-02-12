@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Levi O. Oguike">
+    <meta name="description" content="Imo Chambers of Commerce. We have 
+    the vision to build a community where businesses can thrive, foster a community of growth, 
+    and contribute to economic development. A place for businesses to connect together.">
+
+    <meta property="og:title" content="Imo Chamber of Commerce">
+    <meta property="og:description" content="Imo Chamber of Commerce connecting businesses together">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://levi-tek.github.io/wdd231/chamber/index.html">
+    <meta property="og:url" content="https://levi-tek.github.io/wdd231/chamber/directory.html">
+    <meta name="twitter:card" content="Imo Chamber of Commerce, connects and grows businesses.">
+    <title>Home | Imo Chambers of Commerce </title>
+
+    <link rel="icon" href="images/Fav.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css" media="screen">
+    <link rel="stylesheet" href="styles/discover.css" media="screen">
+    <link rel="stylesheet" href="styles/directory.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="scripts/discover.js" type="module" defer></script>
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+    <header class="top-banner">
+
+        <nav class="items-left">
+            <ul>
+                <li> <i class="fa-brands fa-facebook"></i> </li>
+                <li> <i class="fa-brands fa-twitter"></i> </li>
+                <li> <i class="fa-brands fa-linkedin"></i> </li>
+                <li>
+                    <p>(+234) 912-175-9015</p>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="items-right">
+            <ul>
+                <li> <a href="#">Contact Us</a> </li>
+                <li> <a href="#">Privacy Policy</a> </li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <header>
+
+        <section class="nav-container">
+            <span>             
+                <a href="index.html"><img src="images/imoLogo.png" alt="Imo Chambers of Commerce logo" width="150"></a>
+                <span id="icon-menu"> </span>
+            </span>
+
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </nav>
+        </section>
+
+    </header>
+    <main>
+
+        <div id="overlay" style="display: none;">
+            <div id="messageBox">
+              <span id="messageText"></span><br>
+              <button id="closeBtn">Close</button>
+            </div>
+          </div>
+        <div class="cards"></div>
+    </main>
+    <footer>
+        <div class="footer-background">
+
+            <div class="footer-container">
+                <div class="sec-one">
+                    <p>Imo Chambers of Commerce <br> <br>
+                        No 11 Ograh Street, Off Idunwowina,  <br>Along Auchi Road, Benin City, Nigeria  <br> <br>
+                        <a href="#">info@imocc.org</a><br>
+                        (+234) 912-175-9015
+                    </p>
+                </div>
+
+                <div class="sec-two">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+                <div class="sec-three">
+                    <p>WDD231 Web Development 1 Project
+                        <br>Brigham Young University - Idaho
+                        <br>Levi O. Oguike
+                    </p>
+                    <p id="lastModified"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footend-container">
+            <div class="footer-end">
+                <p><span id="currentYear">©</span> Imo Chamber of Commerce | All rights reserved</p>
+                <p>Designed by Levi O. Oguike</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

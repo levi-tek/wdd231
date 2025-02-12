@@ -28,6 +28,7 @@ function displaycards(places){
 
 
         const figure = document.createElement("img");
+        figure.loading = "lazy";
         figure.src = element.photo_url;
         figure.alt = element.alt;
         image.appendChild(figure);

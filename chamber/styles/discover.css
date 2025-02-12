@@ -135,6 +135,10 @@ button:hover{
     .card{
         width: 45vw;
     }
+    .card img:hover{
+        transform: scale(1.1);
+        overflow: hidden;
+    }
 }
     
 

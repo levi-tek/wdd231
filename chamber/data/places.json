@@ -1,5 +1,5 @@
-
-export const places = [
+{
+  "places" : [
     {
       "name": "Boat Ride at Oguta Lake",
       "address": "Oguta Lake, Oguta, Imo State, Nigeria",
@@ -65,22 +65,7 @@ export const places = [
       "estimated_cost": "₦500 - ₦2,000 per meal",
       "photo_url": "./images/igboDelicacies.webp",
       "alt": "Igbo Delicacies"
-    },
-    {
-      "name": "Attend a Traditional Festival",
-      "address": "Various locations across Imo State, depending on the festival",
-      "description": "Experience cultural events like the New Yam Festival or masquerade performances, showcasing the rich heritage of the Igbo people.",
-      "estimated_cost": "Free entry (some events may have costs)",
-      "photo_url": "./images/imoTraditionalFestival.webp",
-      "alt": "Imo Traditional Festival"
-    },
-    {
-      "name": "Enjoy Nightlife in Owerri",
-      "address": "Popular spots include Ibari Ogwa Village (No. 1 Ibari Ogwa Boulevard, Owerri) and Orange Room Lounge (Concorde Avenue, Owerri)",
-      "description": "Owerri boasts a vibrant nightlife with live music, dancing, and a variety of drinks. These venues offer entertainment late into the night.",
-      "estimated_cost": "₦1,000 - ₦5,000 depending on venue and event",
-      "photo_url": "./images/NightlifeOwerri.webp",
-       "alt": "Nightlife Owerri"
     }
   ]
-
+}    
+    

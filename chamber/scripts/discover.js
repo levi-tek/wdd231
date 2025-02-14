@@ -1,8 +1,15 @@
-import { places } from "./places.mjs";
+const placesUrl = "data/places.json";
 
 const cards = document.querySelector(".cards");
 
-function displaycards(places){
+
+async function fetchAndDisplayCards() {
+  const response = await fetch(placesUrl);
+  const data = await response.json();
+  displayCards(data.places);
+}
+
+function displayCards(places){
     cards.innerHTML = "";
 
     places.forEach(element => {
@@ -76,7 +83,7 @@ function displaycards(places){
 
 }
 
-displaycards(places)
+fetchAndDisplayCards();
 
 
 

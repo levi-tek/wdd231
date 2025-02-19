@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header, section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+}
+main{
+    padding: 30vh;
+}
+
+/* Form Styling */
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 30px;
+}
+
+/* Responsive Design - Mobile First */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p, h2 {
+        font-size: 1rem;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    input[type="text"],
+    textarea,
+    input[type="file"] {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    header p, h2 {
+        font-size: 1.1rem;
+    }
+
+    form {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    label {
+        font-size: 1.1rem;
+    }
+
+    input[type="text"],
+    textarea,
+    input[type="file"] {
+        font-size: 1.1rem;
+    }
+
+    button {
+        font-size: 1.1rem;
+        padding: 9px 18px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p, h2 {
+        font-size: 1.2rem;
+    }
+
+    form {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    label {
+        font-size: 1.2rem;
+    }
+
+    input[type="text"],
+    textarea,
+    input[type="file"] {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+    }
+}

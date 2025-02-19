@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* FAQ Section */
+  .faq {
+    margin-top: 20px;
+  }
+  
+  .faq h2 {
+    color: #333;
+    text-align: center;
+  }
+  main{
+    padding-top: 140px;
+  }
+  
+  .faq details {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  
+  .faq details summary {
+    font-size: 18px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .faq details p {
+    margin-top: 5px;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .faq details:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Social Media Section */
+  .social-media {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-media a:hover {
+    color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    input, textarea, select {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      width: 95%;
+      margin: 30px auto;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .faq details summary {
+      font-size: 16px;
+    }
+  }
+  
